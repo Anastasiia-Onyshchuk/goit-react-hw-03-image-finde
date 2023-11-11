@@ -85,10 +85,6 @@ img {
   cursor: pointer;
   outline: none;
 }
-.icon-search{
-fill: #212121;
-color: #212121;
-}
 
 .SearchForm-button:hover {
   opacity: 1;
@@ -120,12 +116,6 @@ color: #212121;
 .SearchForm-input::placeholder {
   font: inherit;
   font-size: 18px;
-}
-/*
- * Стили компонента Loader
- */
-.Loader{
-  margin: 0 auto;
 }
 
 /*
@@ -169,7 +159,7 @@ color: #212121;
  * Стили компонента Modal
  */
 
-.Overlay {
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -182,7 +172,7 @@ color: #212121;
   z-index: 1200;
 }
 
-.Modal {
+.modal {
   max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);
 }
@@ -190,9 +180,8 @@ color: #212121;
 /*
 * Стили компонента Buton (Load more)
 */
-.Button {
+.button {
   padding: 8px 16px;
-  margin: 0 auto;
   border-radius: 2px;
   background-color: #3f51b5;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -218,6 +207,9 @@ color: #212121;
 }
 
 
-.overlay {
+.overlay{
   background-color: #7575755d;
 }
+
+
+       
